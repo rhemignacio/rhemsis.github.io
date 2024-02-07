@@ -1,10 +1,10 @@
 // Set of number images
 var numberImages = [
-    "https://rhemignacio.github.io/rhemsis.github.io/HomePageapple.png", // Replace with your own number image paths
-    "https://rhemignacio.github.io/rhemsis.github.io/HomePagebanana.png",
-    "https://rhemignacio.github.io/rhemsis.github.io/HomePagecherry.png",
-    "https://rhemignacio.github.io/rhemsis.github.io/HomePagegrapes.png",
-    "https://rhemignacio.github.io/rhemsis.github.io/HomePageorange.png"
+    "https://rhemignacio.github.io/rhemsis.github.io/HomePage/apple.png", // Replace with your own number image paths
+    "https://rhemignacio.github.io/rhemsis.github.io/HomePage/banana.png",
+    "https://rhemignacio.github.io/rhemsis.github.io/HomePage/cherry.png",
+    "https://rhemignacio.github.io/rhemsis.github.io/HomePage/grapes.png",
+    "https://rhemignacio.github.io/rhemsis.github.io/HomePage/orange.png"
     // Add more number images as needed
 ];
 
@@ -36,13 +36,13 @@ function generateProblem() {
     if (operator === 0) {
         question = num1 + " + " + num2 + " = ";
         answer = num1 + num2;
-        operatorImageSrc = "https://rhemignacio.github.io/rhemsis.github.io/HomePageplus.png"; // Replace with your addition operator image
+        operatorImageSrc = "https://rhemignacio.github.io/rhemsis.github.io/HomePage/plus.png"; // Replace with your addition operator image
     } else {
         // Ensure num1 is always greater than or equal to num2 for subtraction
         num1 = Math.max(num1, num2);
         question = num1 + " - " + num2 + " = ";
         answer = num1 - num2;
-        operatorImageSrc = "https://rhemignacio.github.io/rhemsis.github.io/HomePageminus.png"; // Replace with your subtraction operator image
+        operatorImageSrc = "https://rhemignacio.github.io/rhemsis.github.io/HomePage/minus.png"; // Replace with your subtraction operator image
     }
 
     for (var i = 0; i < num1; i++) {
