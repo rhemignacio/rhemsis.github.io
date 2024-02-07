@@ -1,10 +1,10 @@
 // Set of number images
 var numberImages = [
-    "/Homepage/apple.png", // Replace with your own number image paths
-    "/Homepage/banana.png",
-    "/Homepage/cherry.png",
-    "/Homepage/grapes.png",
-    "/Homepage/orange.png"
+    "https://rhemignacio.github.io/rhemsis.github.io/HomePageapple.png", // Replace with your own number image paths
+    "https://rhemignacio.github.io/rhemsis.github.io/HomePagebanana.png",
+    "https://rhemignacio.github.io/rhemsis.github.io/HomePagecherry.png",
+    "https://rhemignacio.github.io/rhemsis.github.io/HomePagegrapes.png",
+    "https://rhemignacio.github.io/rhemsis.github.io/HomePageorange.png"
     // Add more number images as needed
 ];
 
@@ -36,13 +36,13 @@ function generateProblem() {
     if (operator === 0) {
         question = num1 + " + " + num2 + " = ";
         answer = num1 + num2;
-        operatorImageSrc = "/Homepage/plus.png"; // Replace with your addition operator image
+        operatorImageSrc = "https://rhemignacio.github.io/rhemsis.github.io/HomePageplus.png"; // Replace with your addition operator image
     } else {
         // Ensure num1 is always greater than or equal to num2 for subtraction
         num1 = Math.max(num1, num2);
         question = num1 + " - " + num2 + " = ";
         answer = num1 - num2;
-        operatorImageSrc = "/Homepage/minus.png"; // Replace with your subtraction operator image
+        operatorImageSrc = "https://rhemignacio.github.io/rhemsis.github.io/HomePageminus.png"; // Replace with your subtraction operator image
     }
 
     for (var i = 0; i < num1; i++) {
