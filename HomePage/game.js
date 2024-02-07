@@ -36,7 +36,7 @@ function generateProblem() {
     if (operator === 0) {
         question = num1 + " + " + num2 + " = ";
         answer = num1 + num2;
-        operatorImageSrc = "/plus.png"; // Replace with your addition operator image
+        operatorImageSrc = "HomePage/plus.png"; // Replace with your addition operator image
     } else {
         // Ensure num1 is always greater than or equal to num2 for subtraction
         num1 = Math.max(num1, num2);
