@@ -1,6 +1,6 @@
 // Set of number images
 var numberImages = [
-    "https://rhemignacio.github.io/rhemsis.github.io/HomePage/apple.png", // Replace with your own number image paths
+    "rhemsis.github.io/HomePage/apple.png", // Replace with your own number image paths
     "https://rhemignacio.github.io/rhemsis.github.io/HomePage/banana.png",
     "https://rhemignacio.github.io/rhemsis.github.io/HomePage/cherry.png",
     "https://rhemignacio.github.io/rhemsis.github.io/HomePage/grapes.png",
