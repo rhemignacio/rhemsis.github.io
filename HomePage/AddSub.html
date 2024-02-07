@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Math Game for Kids</title>
+    <style>
+        /* Add CSS styles for the game interface */
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #FF5722;
+        }
+
+        .game-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .problem {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .answer-input {
+            font-size: 18px;
+            padding: 10px;
+            width: 150px;
+            margin-right: 10px;
+        }
+
+        .feedback {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .correct {
+            color: #4CAF50;
+        }
+
+        .incorrect {
+            color: #F44336;
+        }
+
+        .button {
+            background-color: #FF5722;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .math-image {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+
+        .score {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Addition and Subtraction</h1>
+        <div class="problem" id="question"></div>
+        <input type="number" class="answer-input" id="answer" placeholder="Enter your answer">
+        <button class="button" onclick="checkAnswer()">Check Answer</button>
+        <p class="feedback" id="result"></p>
+        <div class="image-container">
+            <div id="num1Images"></div>
+            <img class="math-image" id="operatorImage" src="" alt="Operator Image">
+            <div id="num2Images"></div>
+        </div>
+        <p class="score" id="score">Score: 0</p>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
